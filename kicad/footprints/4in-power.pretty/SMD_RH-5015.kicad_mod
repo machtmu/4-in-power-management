@@ -1,0 +1,135 @@
+(footprint "SMD_RH-5015"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "SMD_RH-5015 footprint")
+	(tags "SMD_RH-5015 footprint C5199798")
+	(property "Reference" "REF**"
+		(at 0 -3.016002 0)
+		(layer "F.SilkS")
+		(uuid "d2d13168-4bb9-41e5-8f7d-2f3cf49d48fa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SMD_RH-5015"
+		(at 0 3.016002 0)
+		(layer "F.Fab")
+		(uuid "39cfef86-f28b-49f3-93e6-327e82172a08")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "381dd344-ab8f-4962-aa6c-45723191421a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ddec5c30-aa42-483e-b162-7115b7fdf4cb")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.651003 -1.016002)
+		(end 1.651003 -1.016002)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d3f276c6-2025-4608-a542-418880101fa4")
+	)
+	(fp_line
+		(start -1.651003 1.016002)
+		(end -1.651003 -1.016002)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1d15e53d-7dea-4d09-8d3e-62f51b16c963")
+	)
+	(fp_line
+		(start 1.651003 -1.016002)
+		(end 1.651003 1.016002)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3486d9c7-74c6-47bb-80ae-e7c628185add")
+	)
+	(fp_line
+		(start 1.651003 1.016002)
+		(end -1.651003 1.016002)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cbaa9b3e-a839-42c9-8219-219a57781c53")
+	)
+	(fp_circle
+		(center 1.249936 -0.599949)
+		(end 1.279909 -0.599949)
+		(stroke
+			(width 0.059995)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "0a4e8108-f57c-462d-b104-4ebb3968c24c")
+	)
+	(fp_text user "REF**"
+		(at 0 5.016002 0)
+		(layer "F.Fab")
+		(uuid "8de3b65c-610c-4aec-b635-9adba52a1119")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 0 0)
+		(size 2.8 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "69abe8a1-f392-4e21-a3c7-183a858bfe14")
+	)
+	(embedded_fonts no)
+	(model "packages3d/SMD_RH-5015.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
