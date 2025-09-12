@@ -3031,6 +3031,16 @@
 	)
 	(wire
 		(pts
+			(xy 69.85 39.37) (xy 66.04 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89ca6e55-a263-423c-b247-2f3c0b70a9f3")
+	)
+	(wire
+		(pts
 			(xy 41.91 44.45) (xy 41.91 59.69)
 		)
 		(stroke
@@ -3376,6 +3386,17 @@
 			(justify left)
 		)
 		(uuid "9ed9898e-bf34-4152-8b22-d1f1fcc2df0a")
+	)
+	(hierarchical_label "RST_SHUT"
+		(shape input)
+		(at 69.85 39.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "abb10f83-445d-4705-96a8-9d59b658816f")
 	)
 	(hierarchical_label "CHGINT"
 		(shape output)

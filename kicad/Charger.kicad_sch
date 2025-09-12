@@ -9062,7 +9062,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "4.7uH"
+		(property "Value" "1uH"
 			(at 139.7 58.4199 90)
 			(effects
 				(font
