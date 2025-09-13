@@ -12,7 +12,7 @@ JST XH as input for cell balacing
  ## TODO:  
  I should change that load resistor but lowkey too tired rn :wilted_rose:   
  Order it lmao  
- # Authors:
+# Authors:  
  Architecture: javezki  
  BMS, 5V 3.3V: javezki  
  Charger, 24V Boost: kayessi 
