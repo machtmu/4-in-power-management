@@ -9,10 +9,10 @@ BMS supports up to ~5.7A due to the FET's, but if re speced, could probably go h
 XT30's as output for 24V, input for charger and input for battery   
 JST XH as input for cell balacing   
  Low side current sensing for OCP detection (or wtv else you need current for)  
- ## TODO:
+ ## TODO:  
  I should change that load resistor but lowkey too tired rn :wilted_rose:   
  Order it lmao  
- # Authors:  
+ # Authors:
  Architecture: javezki  
  BMS, 5V 3.3V: javezki  
  Charger, 24V Boost: kayessi 
