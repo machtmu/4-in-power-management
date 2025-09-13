@@ -121,7 +121,7 @@
 		(uuid "69abe8a1-f392-4e21-a3c7-183a858bfe14")
 	)
 	(embedded_fonts no)
-	(model "packages3d/SMD_RH-5015.step"
+	(model "models/SMD_RH-5015.step"
 		(offset
 			(xyz 0 0 0)
 		)

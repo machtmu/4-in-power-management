@@ -2800,6 +2800,24 @@
 		(uuid "32b46cfb-ef40-42a7-8e47-a5c8398ae2e5")
 	)
 	(junction
+		(at 46.99 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4f6ead03-6e4b-4271-919e-ce4b0638d999")
+	)
+	(junction
+		(at 46.99 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "653c6808-2bbe-4779-b606-52e30a287f40")
+	)
+	(junction
+		(at 149.86 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "766fa1ee-b70e-488b-851d-48a5d2138baf")
+	)
+	(junction
 		(at 121.92 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2810,6 +2828,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "aa7ab252-efd0-41c1-b019-7b11a890d52f")
+	)
+	(junction
+		(at 149.86 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c9c37982-1434-43f3-b880-72fa1abfb0c1")
 	)
 	(junction
 		(at 107.95 33.02)
@@ -2891,7 +2915,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 80.01) (xy 52.07 80.01)
+			(xy 44.45 80.01) (xy 46.99 80.01)
 		)
 		(stroke
 			(width 0)
@@ -2931,6 +2955,16 @@
 	)
 	(wire
 		(pts
+			(xy 149.86 80.01) (xy 149.86 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29d73456-db89-4de6-9978-459418022108")
+	)
+	(wire
+		(pts
 			(xy 107.95 35.56) (xy 107.95 33.02)
 		)
 		(stroke
@@ -2941,7 +2975,27 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 86.36) (xy 52.07 86.36)
+			(xy 46.99 80.01) (xy 46.99 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3962b152-e570-4717-a92c-9b6ea7c0b564")
+	)
+	(wire
+		(pts
+			(xy 149.86 80.01) (xy 156.21 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c59cf10-3ed2-494b-853c-198fafedc5d6")
+	)
+	(wire
+		(pts
+			(xy 41.91 86.36) (xy 46.99 86.36)
 		)
 		(stroke
 			(width 0)
@@ -2971,7 +3025,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 86.36) (xy 156.21 86.36)
+			(xy 147.32 86.36) (xy 149.86 86.36)
 		)
 		(stroke
 			(width 0)
@@ -3021,7 +3075,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 80.01) (xy 156.21 80.01)
+			(xy 147.32 80.01) (xy 149.86 80.01)
 		)
 		(stroke
 			(width 0)
@@ -3078,6 +3132,16 @@
 			(type default)
 		)
 		(uuid "9fa79db4-98fe-46a7-af2b-37bd1399a877")
+	)
+	(wire
+		(pts
+			(xy 46.99 80.01) (xy 52.07 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7684865-3730-4e6d-b3d8-55cfdd371db9")
 	)
 	(wire
 		(pts
@@ -3151,6 +3215,16 @@
 	)
 	(wire
 		(pts
+			(xy 149.86 86.36) (xy 156.21 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddb87df3-981f-4e2f-b0f4-e021b7bc9a15")
+	)
+	(wire
+		(pts
 			(xy 205.74 82.55) (xy 201.93 82.55)
 		)
 		(stroke
@@ -3188,6 +3262,16 @@
 			(type default)
 		)
 		(uuid "f82cc6f9-7284-4bb8-81ba-0c2381c9014e")
+	)
+	(wire
+		(pts
+			(xy 46.99 86.36) (xy 52.07 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8bfdacd-d489-4294-889c-6e7c355a9df9")
 	)
 	(wire
 		(pts
@@ -3323,7 +3407,7 @@
 	)
 	(hierarchical_label "+5V"
 		(shape output)
-		(at 45.72 80.01 180)
+		(at 44.45 80.01 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5939,16 +6023,6 @@
 				(justify left top)
 			)
 		)
-		(pin "+3.3V" output
-			(at 156.21 80.01 180)
-			(uuid "97b10f2b-89f0-44b3-a3f8-90c4efd5aa2b")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "R1" input
 			(at 156.21 86.36 180)
 			(uuid "be6be1b8-46a7-4c5c-b219-f9a226a7e676")
@@ -5992,6 +6066,16 @@
 		(pin "VIN" input
 			(at 156.21 82.55 180)
 			(uuid "8484dab8-3ab8-4d4c-8f0f-b709f57e1b66")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "+VOUT" output
+			(at 156.21 80.01 180)
+			(uuid "b510aefe-54a6-4fe7-907d-789a5d5ab3fc")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6051,17 +6135,7 @@
 		)
 		(pin "+24V" output
 			(at 189.23 26.67 180)
-			(uuid "cf9a071e-70c4-46b9-ba9f-97df3554e69b")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "+VIN" input
-			(at 189.23 30.48 180)
-			(uuid "9e9770fd-7dc3-412e-aefb-c4b63fac9f0b")
+			(uuid "b50bb00b-6064-4aee-a9c9-344397d356d9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6071,7 +6145,17 @@
 		)
 		(pin "EN" input
 			(at 189.23 34.29 180)
-			(uuid "92eaeba9-5e52-4d81-91e8-774b8e17e77f")
+			(uuid "963a7655-d705-434e-9127-b3e89461a7d9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VIN" input
+			(at 189.23 30.48 180)
+			(uuid "10a4e695-4752-440f-8c27-ed4e0d10d740")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6345,16 +6429,6 @@
 				(justify left top)
 			)
 		)
-		(pin "+5V" output
-			(at 52.07 80.01 180)
-			(uuid "5bd507d1-afa3-4236-87da-6223c0d9507b")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "R1" input
 			(at 52.07 86.36 180)
 			(uuid "8bf75d46-ee35-473a-b654-0d5ca3b7a8b5")
@@ -6398,6 +6472,16 @@
 		(pin "VIN" input
 			(at 52.07 82.55 180)
 			(uuid "530d4f46-60b8-4d56-b678-cf63c14e0b58")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "+VOUT" output
+			(at 52.07 80.01 180)
+			(uuid "f90936f6-8002-483b-b2f8-26e5695ab7d9")
 			(effects
 				(font
 					(size 1.27 1.27)

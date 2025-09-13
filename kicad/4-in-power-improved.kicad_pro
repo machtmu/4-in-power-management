@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 0.875,
-          "width": 0.2
+          "drill": 2.7,
+          "height": 3.8,
+          "width": 3.8
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -565,7 +565,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "../solidworks/recovery.step",
+      "step": "production/3dmodel/goatedmodel.step",
       "svg": "",
       "vrml": ""
     },

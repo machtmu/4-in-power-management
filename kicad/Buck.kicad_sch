@@ -3185,18 +3185,7 @@
 		)
 		(uuid "5e1f8e55-fa33-4807-b09b-3f1a942aae05")
 	)
-	(hierarchical_label "R1"
-		(shape input)
-		(at 190.5 66.04 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "6aee8ab6-8da5-40a8-bb9c-e6cfdc8b8500")
-	)
-	(hierarchical_label "+5V"
+	(hierarchical_label "+VOUT"
 		(shape output)
 		(at 196.85 66.04 0)
 		(effects
