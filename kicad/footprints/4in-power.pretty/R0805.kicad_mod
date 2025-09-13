@@ -8,7 +8,8 @@
 	(property "Reference" "REF**"
 		(at 0 -2.917094 0)
 		(layer "F.SilkS")
-		(uuid "7e3a618c-9401-4d05-b278-1fd0714884d4")
+		(hide yes)
+		(uuid "a0a26697-dc88-40ca-8bf2-db95283b2c55")
 		(effects
 			(font
 				(size 1 1)
@@ -16,10 +17,10 @@
 			)
 		)
 	)
-	(property "Value" "R0805"
+	(property "Value" "5mΩ"
 		(at 0 2.917094 0)
 		(layer "F.Fab")
-		(uuid "2b1dba68-e7cf-4f1a-9475-19b0be0cc7bf")
+		(uuid "f445be82-b882-4bd0-8286-6bdc6db7748c")
 		(effects
 			(font
 				(size 1 1)
@@ -27,11 +28,11 @@
 			)
 		)
 	)
-	(property "Datasheet" ""
+	(property "Datasheet" "https://item.szlcsc.com/142685.html"
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "9f39e815-8d90-4fdb-89c1-61d597f25f8d")
+		(uuid "701054f7-7835-4023-b8ab-6f988178cfe3")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -39,14 +40,40 @@
 			)
 		)
 	)
-	(property "Description" ""
+	(property "Description" "500mW 5mΩ Current Sense Resistor Surface Mount ±1% ±150ppm/℃ 0805 Current Sense Resistors / Shunt Resistors ROHS"
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "8a162bc1-1571-4bd8-ba61-0f0690f200ab")
+		(uuid "6d8ceb06-d53c-4035-84d2-c4936ff46a8b")
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC" "C92742"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "05ca5f91-ddb4-4a95-b843-e0be3d09e8de")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MFR PART #" "MS05W2F500NT5E"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5d944a50-1f92-407a-80a5-cdb1e29e7a4f")
+		(effects
+			(font
+				(size 1 1)
 				(thickness 0.15)
 			)
 		)
@@ -60,7 +87,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "61b815eb-8927-4866-a8bd-43e61a0a6b80")
+		(uuid "27d67348-467b-450a-8f8a-a88bbe5fe9a0")
 	)
 	(fp_line
 		(start -1.761138 0.917094)
@@ -70,7 +97,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "64c239f4-bb2b-4b3d-9d2e-3d7a69e3d63b")
+		(uuid "a2502438-73a9-4c8f-8f83-86036f73e230")
 	)
 	(fp_line
 		(start -0.4762 0.917094)
@@ -80,7 +107,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "186a8ee1-bf2a-4d25-a305-7c75afbeb4b3")
+		(uuid "8149eb0d-0170-453f-8ee6-2a246e53a32c")
 	)
 	(fp_line
 		(start 0.4762 0.917094)
@@ -90,7 +117,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "e7c65449-2912-45b6-9878-a93aff02ddf3")
+		(uuid "85fc0c25-acc4-403c-8e2e-573bbdbca175")
 	)
 	(fp_line
 		(start 1.761138 -0.917094)
@@ -100,7 +127,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "6ff4e609-bfb5-4b7b-bd14-ba6651358766")
+		(uuid "c531dcc0-f9de-4ddc-8ca4-9cbdc59df8ba")
 	)
 	(fp_line
 		(start 1.761138 0.917094)
@@ -110,7 +137,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "32dac42d-1841-428f-b3fc-191b64b31f9e")
+		(uuid "3023e53b-dde5-4e4c-9e5b-37f39b5f7ae2")
 	)
 	(fp_circle
 		(center -1 0.637541)
@@ -121,12 +148,12 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "bd28a2c4-4c45-4948-8aa1-ab1659a8c8de")
+		(uuid "8c5b984d-104b-4197-8ecd-f7d7dcd36b4a")
 	)
 	(fp_text user "REF**"
-		(at 0 4.917094 0)
+		(at 0 0 0)
 		(layer "F.Fab")
-		(uuid "74739347-db5a-4606-9070-fd067b09276a")
+		(uuid "abb74523-62ea-4bb0-8210-3e276e5ee7be")
 		(effects
 			(font
 				(size 1 1)
@@ -138,24 +165,24 @@
 		(at -1 0)
 		(size 1.132537 1.377013)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "f71b9376-4cc9-4b4e-b84c-ac8b1c90845a")
+		(uuid "78012f86-2dab-4a91-a5a0-4602a4fb90ba")
 	)
 	(pad "2" smd rect
 		(at 1 0)
 		(size 1.132537 1.377013)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "29827d18-e02f-4f5f-8ac9-a734c6b1d75e")
+		(uuid "d57a411a-96b0-4cf2-b484-1d533398a20c")
 	)
 	(embedded_fonts no)
-	(model "packages3d/R0805.step"
+	(model "models/R0805.step"
 		(offset
-			(xyz -1.413001979 0 0)
+			(xyz 0.086998 0 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -0 -0 -0)
 		)
 	)
 )

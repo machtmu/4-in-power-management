@@ -8,7 +8,8 @@
 	(property "Reference" "REF**"
 		(at -0.1143 -3.67874 0)
 		(layer "F.SilkS")
-		(uuid "2f82808e-931b-47e0-8c1c-0dc25683c942")
+		(hide yes)
+		(uuid "d407cc7b-1720-4069-a926-4551efbd50dc")
 		(effects
 			(font
 				(size 1 1)
@@ -16,10 +17,10 @@
 			)
 		)
 	)
-	(property "Value" "CRYSTAL-SMD_4P-L3.2-W2.5-BL"
+	(property "Value" "X322516MLB4SI"
 		(at -0.1143 3.907087 0)
 		(layer "F.Fab")
-		(uuid "a11b005f-0748-41d4-b8ef-e251d1af86fa")
+		(uuid "2c8f9c9e-bb63-4cdb-a9a8-9e122ddb894e")
 		(effects
 			(font
 				(size 1 1)
@@ -31,7 +32,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "49ac0241-cdc0-460d-b05c-76cee2765855")
+		(uuid "975ae616-ad16-4ef0-8b28-d00d3e742ca7")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -43,10 +44,322 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "5b8453ba-0bd4-4781-890a-b26302027f82")
+		(uuid "4abef9dc-b2e6-413c-acfe-2d72a51260d9")
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MF" "YXC"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "147dcc6f-007d-4eee-b6cf-a5a8d48d9a7f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MAXIMUM_PACKAGE_HEIGHT" "0.8 mm"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a793b8f6-951c-4413-8446-cb95a1a9917d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Package" "Package"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8e38473f-6358-4713-a6ba-8f214ea3dd13")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Price" "None"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4e082acf-bd26-47bd-8327-598c28991671")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Check_prices" "https://www.snapeda.com/parts/X322516MLB4SI/YXC/view-part/?ref=eda"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7bc91d35-1c7b-4d80-9dd9-9acfe669ae40")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "STANDARD" "Manufacturer Recommendations"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "712fa09a-eba8-4840-b42a-6765f39f4511")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "PARTREV" "N/A"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "303431b7-ec59-4418-ba2f-31144b310a30")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "SnapEDA_Link" "https://www.snapeda.com/parts/X322516MLB4SI/YXC/view-part/?ref=snap"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "461eca09-f5d6-440d-a4b2-f1ea777fcf2d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MP" "X322516MLB4SI"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "07164c3c-818a-4d10-a9ea-69b65e7fa362")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description_1" "\n                        \n                            External dimensions: 3.2 x 2.5 x 0.8 mm.\nFrequency range: 11.0592MHz ~54MHz\n                        \n"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bfa4c804-6a9b-4f91-81e8-87ba8b367348")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Availability" "Not in stock"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "73e4d386-db5a-4adc-b1ee-b81043169407")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MANUFACTURER" "YXC"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3b3c6719-bf97-4b22-ad31-a59f9bb1a0a9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "JLC Link" "https://jlcpcb.com/partdetail/Yxc_CrystalOscillators-X322516MOB4SI/C12668"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ae36d085-5bd8-4662-8b36-ba19eff1853c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC Part #" "C12668"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e9c7dd9d-29f4-4b0a-b6a8-3a4d1a292656")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "basic?" "no"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "befb2633-9b11-4ee3-bee2-ed7006e621e3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "info" "CAN Clock"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "29100896-1747-4544-a3ed-80cdb038cd86")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "price" "C$0.0829"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "eb9d2fc9-77bb-433e-9e80-2f397bf769b5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Current Draw" "200 uW 3.3v"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "10ce605b-3edb-4d09-92d2-c393c075a071")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "notes" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "09a5afd7-6ec2-43db-9c1a-5d3fb1b1f699")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Height" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c088eaf7-1866-4b38-8afb-61192ef3e2fb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7ac23f6b-9b9c-4a54-abfd-4c3f81c298fc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a21d8ac9-b067-4037-a91d-aaf7ebbba4fe")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9a8aad13-f27a-4407-96bb-61e41ce0d977")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fd44c4e6-49e3-4c86-9d93-525ceeaaee8c")
+		(effects
+			(font
+				(size 1 1)
 				(thickness 0.15)
 			)
 		)
@@ -60,7 +373,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "a2d2752d-e2b6-4513-b3b1-1725e5e5103a")
+		(uuid "b32bf3a2-6ec8-4d4b-ba21-3cc66bc3d893")
 	)
 	(fp_line
 		(start -2.257201 1.907087)
@@ -70,7 +383,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "09648669-be7d-49f9-8eb4-4de84a02a953")
+		(uuid "094c02c0-ed71-4308-b86e-fac784915214")
 	)
 	(fp_line
 		(start -2.0286 -1.67874)
@@ -80,7 +393,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "59344cfd-1347-4261-8a89-1f1f54ee44cb")
+		(uuid "5ce12488-74fc-4837-9965-3951c4483693")
 	)
 	(fp_line
 		(start -2.0286 1.678486)
@@ -90,7 +403,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "61396ec6-73ff-4668-9cf7-d63367270631")
+		(uuid "d5f04647-14ef-4127-a99a-8cd0f3b3e822")
 	)
 	(fp_line
 		(start 2.0286 -1.67874)
@@ -100,7 +413,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "4901db2b-5625-406a-9c1f-c94f90ed1cf5")
+		(uuid "5f623762-2512-4f5c-9af9-b0a0ba9eeff0")
 	)
 	(fp_line
 		(start 2.0286 1.678486)
@@ -110,7 +423,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "3881e597-64f5-4055-917f-3d1d104db040")
+		(uuid "600d7b3d-7d0e-4a41-957f-2e44c98a1e2e")
 	)
 	(fp_circle
 		(center -1.599949 1.249809)
@@ -121,7 +434,7 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "183c2beb-64cd-45b9-9c5d-490c74cf42ef")
+		(uuid "4db6a115-c205-4dbc-b8d6-3cab6fdbc547")
 	)
 	(fp_circle
 		(center -1.270003 0.889129)
@@ -132,12 +445,12 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "c506d918-f810-47ee-b3d1-bf2ad0e08449")
+		(uuid "cd958574-abe0-42ed-b461-2e8965e2cd50")
 	)
 	(fp_text user "REF**"
-		(at -0.1143 5.907087 0)
+		(at -5.869444 7.807138 0)
 		(layer "F.Fab")
-		(uuid "76b120c9-08c8-4be2-8a7a-5e9486369e5e")
+		(uuid "18e21848-7a78-4ed9-a932-347714368884")
 		(effects
 			(font
 				(size 1 1)
@@ -149,28 +462,28 @@
 		(at -1.100076 0.850013)
 		(size 1.4 1.2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "e96845be-ae94-4252-964a-0c41db371328")
+		(uuid "077cafbd-ea67-4db6-958f-815f19e4bf84")
 	)
 	(pad "2" smd rect
 		(at 1.100076 0.850013)
 		(size 1.4 1.2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "1dadc291-2543-4460-99b3-4c9daa31e0a6")
+		(uuid "aad3eb27-65a2-4627-9760-b86adc260688")
 	)
 	(pad "3" smd rect
 		(at 1.100076 -0.850013)
 		(size 1.4 1.2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "8c0bb8a8-ea02-412f-a8ec-3f1693a76ca0")
+		(uuid "d4d8e1ed-83ed-4fb2-9104-87a1f4766637")
 	)
 	(pad "4" smd rect
 		(at -1.100076 -0.850013)
 		(size 1.4 1.2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "db3f0490-94d8-46ef-b3e0-5b57cacd261e")
+		(uuid "7e91a027-009c-409e-aa8e-eef634b0b584")
 	)
 	(embedded_fonts no)
-	(model "packages3d/CRYSTAL-SMD_4P-L3.2-W2.5-BL.step"
+	(model "models/CRYSTAL-SMD_4P-L3.2-W2.5-BL.step"
 		(offset
 			(xyz 0 0 0)
 		)

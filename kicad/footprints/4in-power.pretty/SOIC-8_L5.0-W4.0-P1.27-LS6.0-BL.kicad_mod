@@ -1,0 +1,548 @@
+(footprint "SOIC-8_L5.0-W4.0-P1.27-LS6.0-BL"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "SOIC-8_L5.0-W4.0-P1.27-LS6.0-BL footprint")
+	(tags "SOIC-8_L5.0-W4.0-P1.27-LS6.0-BL footprint C7881")
+	(property "Reference" "REF**"
+		(at 0 -4.71 180)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "96b3361c-ea12-4881-9545-20df279dfc21")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "TPS54331DR"
+		(at 0 4.71 180)
+		(layer "F.Fab")
+		(uuid "0389c9ba-acbc-4ac4-a5f6-583805bdc8f6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1808272040_Texas-Instruments-TPS54331DR_C9865.pdf"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "489fb105-9dd1-48ba-baca-e51f41e54e85")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Step-down type Adjustable 800mV~25V 3A 3.5V~28V SOIC-8 DC-DC Converters ROHS"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b66e07fd-d564-4331-b092-ae49a55abbac")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC" "C9865"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b625180e-c6d9-4453-bf26-e7b638fe0f13")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Stock" "173408"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "82379453-5a2f-4548-9045-9ee7a7ace951")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Price" "0.220USD"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a2716843-4955-4080-ae40-0c0f22d1a883")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Process" "SMT"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "062c2241-6094-4dd5-83a3-7dbe04793e2b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Minimum Qty" "1"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2ae8ed93-8fb7-4a65-83fe-70a927cfe344")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Attrition Qty" "0"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c0d74c13-3c7d-40a4-bc28-44259028aa45")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Class" "Preferred Component"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1520da3f-a454-423c-8112-638c979ed3e7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Category" "Power Management ICs,DC-DC Converters"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3353f842-d8c1-421f-998e-8e656064c4e6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer" "Texas Instruments"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "31abc77e-bcaf-4ab9-8f24-3529cb60ee4a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Part" "TPS54331DR"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2e4344f9-b453-4225-99ab-bb3c7240b085")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Number Of Outputs" "1"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5ad0bd1a-af5e-490e-9dd4-3cb62e440dae")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Output Current (Max)" "3A"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "71d3363c-8308-4ad7-94c8-d9b2872c557d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Output Voltage" "0.8V~25V"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4b405f03-b8bb-486b-8de6-b0b2078050a6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Topology" "Step-down"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c42d419c-43a3-492c-a182-4d79c67f3bfb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Synchronous Rectification" "No"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "26612472-67ba-4646-bbbb-371dd1f3f942")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Switching Frequency" "570kHz"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c85561fa-45b4-45be-b25e-74150572dd06")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Input Voltage" "3.5V~28V"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "eede49e4-80fd-4277-8a6b-66cf5409b78a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Output Type" "Adjustable"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b46c7a2d-082f-4f40-8360-81179c851f93")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Operating Temperature" "-40°C~+150°C@(TJ)"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ddf62f05-ab7e-4669-aa44-771045f8246f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Function" "Step-down type"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6197105c-3da7-431a-8637-6afd1b02f3f5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Switch Tube (Built-In/External)" "Built-in"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9efc805c-750b-4231-a78c-70f7560471ba")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Quiescent Current (Iq)" "1mA"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "549b50a7-5878-4d87-8b82-3f89cc10c107")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Output Current" "3A"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "49bdfae2-572f-4751-a748-c9151ec5b7b9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.5 -1.91)
+		(end -2.41 -1.91)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e6b05d79-db29-46ed-9971-2822ce3a0f7b")
+	)
+	(fp_line
+		(start -2.5 1.91)
+		(end -2.5 -1.91)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "66a7d636-8a59-453a-8a55-5e30accbb18f")
+	)
+	(fp_line
+		(start -2.5 1.91)
+		(end -2.41 1.91)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "98ba1b76-0ac2-474a-bf5e-9ddc8a60298d")
+	)
+	(fp_line
+		(start 2.5 -1.91)
+		(end 2.41 -1.91)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "23fd7b0e-2d76-4954-bdce-58551644e858")
+	)
+	(fp_line
+		(start 2.5 -1.91)
+		(end 2.5 1.91)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5d0bc875-a27f-410e-a10f-9164104d23c7")
+	)
+	(fp_line
+		(start 2.5 1.91)
+		(end 2.41 1.91)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6add2022-abdd-4159-9a50-4de15e7802cf")
+	)
+	(fp_circle
+		(center -2.5 2.25)
+		(end -2.47 2.25)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "8badaa3d-3a63-4cba-947e-ccc214572089")
+	)
+	(fp_line
+		(start -2.5 -2)
+		(end 2.5 -2)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "66df9dfe-4a05-4e64-94df-86aae058e8f8")
+	)
+	(fp_line
+		(start -2.5 2)
+		(end -2.5 -2)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "1de17297-4dbb-415b-b9a9-04337be7c085")
+	)
+	(fp_line
+		(start 2.5 -2)
+		(end 2.5 2)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "e25b0d65-7e48-4dca-b56b-a44ef39edbe6")
+	)
+	(fp_line
+		(start 2.5 2)
+		(end -2.5 2)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "bd4ba9fb-05a5-4865-b5b6-f7bfad7141c9")
+	)
+	(fp_circle
+		(center -1.91 3.4)
+		(end -1.75 3.4)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "7cc5704a-b00c-475f-a8dd-b1fe951d7a32")
+	)
+	(fp_text user "REF**"
+		(at -0.51 7.7 180)
+		(layer "F.Fab")
+		(uuid "4d6309ba-5dc2-45d3-b84d-3d09df165fa9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd oval
+		(at -1.91 2.71)
+		(size 0.57 1.95)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "aabfcf1c-cd42-48a6-84ac-f8291c2eef33")
+	)
+	(pad "2" smd oval
+		(at -0.64 2.71)
+		(size 0.57 1.95)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "538dcc71-658c-4051-8bee-dbd9111d5c1e")
+	)
+	(pad "3" smd oval
+		(at 0.64 2.71)
+		(size 0.57 1.95)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "54d338e1-a5d4-43b1-8c5e-20a653a6a9e6")
+	)
+	(pad "4" smd oval
+		(at 1.91 2.71)
+		(size 0.57 1.95)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "464e6b4b-c8bb-4644-85e2-7aad811af824")
+	)
+	(pad "5" smd oval
+		(at 1.91 -2.71)
+		(size 0.57 1.95)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "7c5bc9e4-2b21-4538-ae83-9782a6711a81")
+	)
+	(pad "6" smd oval
+		(at 0.64 -2.71)
+		(size 0.57 1.95)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "44242596-6af2-488f-a48f-82052cddd166")
+	)
+	(pad "7" smd oval
+		(at -0.64 -2.71)
+		(size 0.57 1.95)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "f7080a1c-fe12-45ef-a0af-5c6915f90536")
+	)
+	(pad "8" smd oval
+		(at -1.91 -2.71)
+		(size 0.57 1.95)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "81358bf3-8432-470f-8048-b82a0d1ab2fa")
+	)
+	(embedded_fonts no)
+	(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_CDFER_JLCPCB-Kicad-Library/JLCPCB.3dshapes/SOIC-8_L5.0-W4.0-P1.27-LS6.0-BL.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

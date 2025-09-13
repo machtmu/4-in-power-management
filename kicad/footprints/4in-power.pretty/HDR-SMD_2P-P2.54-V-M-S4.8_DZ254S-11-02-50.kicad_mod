@@ -8,7 +8,8 @@
 	(property "Reference" "REF**"
 		(at -0.000013 -3.449962 0)
 		(layer "F.SilkS")
-		(uuid "b97015b3-1c6d-4d6e-8528-1c6067adc36e")
+		(hide yes)
+		(uuid "5463fcc3-aa70-4200-b8a8-0949a8ab54b1")
 		(effects
 			(font
 				(size 1 1)
@@ -16,10 +17,10 @@
 			)
 		)
 	)
-	(property "Value" "HDR-SMD_2P-P2.54-V-M-S4.8_DZ254S-11-02-50"
+	(property "Value" "2P SMD 2.54P Jumper"
 		(at -0.000013 3.449962 0)
 		(layer "F.Fab")
-		(uuid "953c6d2b-0de1-41f7-9892-85866e18b70f")
+		(uuid "8cda2dba-ce7c-4f17-acf2-6449760cebaf")
 		(effects
 			(font
 				(size 1 1)
@@ -27,11 +28,11 @@
 			)
 		)
 	)
-	(property "Datasheet" ""
+	(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20230913/ABC6E3C99A1E0EED00221BCE3DC8DD21.pdf"
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "12bc6e7b-8c40-48fc-9633-be71c20defde")
+		(uuid "d8b0b903-fd08-4169-ab3a-3e11e31b9a72")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -39,14 +40,27 @@
 			)
 		)
 	)
-	(property "Description" ""
+	(property "Description" "DZ254S-11-02-50"
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "e0fb617d-cde8-4f7b-809c-040b1aa139db")
+		(uuid "8e6a9832-ec5a-4823-b9f4-22a57570d382")
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC" "C17702633"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3dd77bc9-7cd5-4d7e-bb5a-3ab6043b7190")
+		(effects
+			(font
+				(size 1 1)
 				(thickness 0.15)
 			)
 		)
@@ -60,7 +74,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "7602597b-661b-4a75-9aad-1f226a84b353")
+		(uuid "21571118-3396-48c1-91a7-382331e838b3")
 	)
 	(fp_line
 		(start -2.011125 -1.249936)
@@ -70,7 +84,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "107e2bc3-1584-43a8-a39b-c6aa59d4c5a0")
+		(uuid "d3583a84-423c-4c9e-8f2f-aa7c4103fd31")
 	)
 	(fp_line
 		(start -0.528905 -1.249911)
@@ -80,7 +94,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "77d6d0f8-29be-4207-a170-03eb8d6d0b85")
+		(uuid "358797cb-61b2-4b68-8bf0-f73b48c27223")
 	)
 	(fp_line
 		(start 0.52888 1.250064)
@@ -90,7 +104,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "f7a17a2f-d860-4e81-bada-c246211e8341")
+		(uuid "e3765c01-30d1-4709-b17e-b2f677276420")
 	)
 	(fp_line
 		(start 2.539954 -1.249911)
@@ -100,7 +114,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "4537132f-c261-490e-8359-c63c6f10d14d")
+		(uuid "e3787122-67ac-40d1-aa58-34a5bee1f5c1")
 	)
 	(fp_line
 		(start 2.539954 1.270053)
@@ -110,7 +124,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "bda59067-be28-4bbf-a6cf-f75f8fec5e01")
+		(uuid "402032f4-f8bb-4040-8e7f-63ddc7ed61aa")
 	)
 	(fp_circle
 		(center -2.540005 -2.399949)
@@ -121,12 +135,12 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "d8062583-87d8-4d0b-ace3-ca47ae489c10")
+		(uuid "836bbe06-5e02-48aa-b86d-55c5c08f3522")
 	)
 	(fp_text user "REF**"
-		(at -0.000013 5.449962 0)
+		(at 0 0 0)
 		(layer "F.Fab")
-		(uuid "3f3ca694-8b24-49e8-82f1-d9b6e2eb228d")
+		(uuid "938282d8-5b05-4b23-a108-0ddeeaa69882")
 		(effects
 			(font
 				(size 1 1)
@@ -138,24 +152,24 @@
 		(at -1.270003 -1.449962)
 		(size 1.01999 2.9)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "8ed51467-8de0-46f7-bf1f-3f13774d16aa")
+		(uuid "9e0bcd91-87e0-48f5-885b-01d1ecf5040c")
 	)
 	(pad "2" smd rect
 		(at 1.270003 1.449962)
 		(size 1.01999 2.9)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "1c60e3ca-fb67-439d-b52e-603c0a960ae3")
+		(uuid "671ab2a3-6595-4953-9360-013fb25000b7")
 	)
 	(embedded_fonts no)
-	(model "packages3d/HDR-SMD_2P-P2.54-V-M-S4.8_DZ254S-11-02-50.step"
+	(model "models/HDR-SMD_2P-P2.54-V-M-S4.8_DZ254S-11-02-50.step"
 		(offset
-			(xyz 0 0 0)
+			(xyz 1.25 0 0.5)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -0 -0 -0)
 		)
 	)
 )
