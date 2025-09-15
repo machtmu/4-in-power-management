@@ -1,0 +1,110 @@
+(footprint "CONN-TH_B4B-XH-A-LF-SN"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "CONN-TH_B4B-XH-A-LF-SN footprint")
+	(tags "CONN-TH_B4B-XH-A-LF-SN footprint C144395")
+	(property "Reference" "REF**"
+		(at -0.000025 -5.429007 0)
+		(layer "F.SilkS")
+		(uuid "7cd20abe-cf94-407b-9007-63be766ad782")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "CONN-TH_B4B-XH-A-LF-SN"
+		(at -0.000025 4.413005 0)
+		(layer "F.Fab")
+		(uuid "f802a942-9307-48ac-8acc-f522053d673e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dca7a8aa-b75e-443f-85f6-832e0afae300")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f805d761-cdb5-4e0e-9a7c-07aa47c6ca83")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_text user "REF**"
+		(at -0.000025 6.413005 0)
+		(layer "F.Fab")
+		(uuid "c8934b7b-7bc6-4ece-899b-c5e340042d7d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 3.750038 0)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3cf9e201-4521-4378-b0e2-be64eafe8d7c")
+	)
+	(pad "2" thru_hole circle
+		(at 1.249911 0)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "79b8f98e-25f6-4db2-b21e-27bd3fde51ef")
+	)
+	(pad "3" thru_hole circle
+		(at -1.249962 0)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ef9c485a-80ed-49d4-8d56-f02ef0179da6")
+	)
+	(pad "4" thru_hole circle
+		(at -3.750089 0)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a38093d7-5767-4be1-bc17-f65595875fe6")
+	)
+	(embedded_fonts no)
+	(model "packages3d/CONN-TH_B4B-XH-A-LF-SN.step"
+		(offset
+			(xyz -0.0000253999996185 0.4499863932 -2.499994962)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 -180)
+		)
+	)
+)
